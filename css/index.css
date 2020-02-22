@@ -86,6 +86,15 @@ header nav a{
     text-decoration: none;
     color: black;
 }
+header nav a:hover{
+    color: grey;
+    text-decoration: underline;
+    animation: textresize 3s;
+}
+@keyframes textresize{
+    from {font-size: inherit;}
+    to {font-size: 18px;}
+}
 footer {
     width: 100%;
     background: black;
@@ -101,6 +110,13 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+footer nav a:hover{
+    animation: textresizefoot 3s;
+}
+@keyframes textresizefoot{
+    from {font-size: inherit;}
+    to {font-size: 17px;}
 }
 
 /* index.html */
