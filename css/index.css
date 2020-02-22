@@ -249,7 +249,9 @@ footer nav a:hover{
     display: flex;
     flex-direction: column;
     margin: 3% 0;
+    padding: 1% 2%;
 }
+
 .contact{
     display: flex;
     justify-content: space-between;
