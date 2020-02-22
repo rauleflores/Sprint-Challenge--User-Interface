@@ -244,14 +244,13 @@ footer nav a:hover{
     padding: 1%;
 }
 
-/* Contact */
+/* contact.html */
 .subhead{
     display: flex;
     flex-direction: column;
     margin: 3% 0;
     padding: 1% 2%;
 }
-
 .contact{
     display: flex;
     justify-content: space-between;
